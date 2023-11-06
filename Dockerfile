@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.11.6-slim
 RUN mkdir /bot && chmod 777 /bot
 WORKDIR /bot
 ENV DEBIAN_FRONTEND=noninteractive
