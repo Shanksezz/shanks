@@ -44,5 +44,3 @@ class Var:
     FFMPEG = config("FFMPEG", default="ffmpeg")
     SEND_SCHEDULE = config("SEND_SCHEDULE", default=False, cast=bool)
     RESTART_EVERDAY = config("RESTART_EVERDAY", default=True, cast=bool)
-
- {"stack": "container"}
